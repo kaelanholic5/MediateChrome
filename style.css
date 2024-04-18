@@ -1,0 +1,145 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8); 
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
+    background-color: grey;
+}
+
+body{
+  width:350px;
+}
+
+#mainSection{
+    min-height:200px;
+    max-height:350px;
+    border: 3px solid rgb(15, 88, 6); 
+    overflow:auto;
+}
+
+#topDog{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.mainCompany{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+#personOwner{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+#topDogName{
+    color: rgb(72, 146, 72);
+    font-size: 30px;
+    font-weight: bold;
+    padding:none;
+    margin:0px;
+    padding-bottom:10px;
+}
+
+.directOwnerName{
+    color: rgb(37, 82, 37);
+    font-size: 26px;
+    font-weight: bold; 
+    font-family:  'Lucida Grande';
+    margin:0px;
+    padding-bottom:10px;
+}
+
+#personOwnerName{
+    color: rgb(37, 82, 37);
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.personName{
+    color: black;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.personRelationship{
+    font-size:15px;
+    color: black;
+    padding-left:10px;
+    font-family: 'Gill Sans';
+}
+
+.personAssociations{
+    padding-left:10px;
+}
+
+.personOwnerLabel{
+    text-shadow: 2px 2px #a5ffb1;
+    color: rgb(72, 146, 72);
+    font-size: 30px;
+    font-weight: bold; 
+    margin:0px;
+    padding-bottom:10px;
+}
+
+.locationHeader{
+    color: rgb(86, 107, 86);
+    text-align:center;
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:0px;
+    padding-right:0px;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.partialOwnerName{
+    color: black;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.noWebInfo{
+    color: black;
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.partialOwnerRelationship{
+    color: rgb(40, 97, 40);
+    font-size:15px;
+    padding-left:10px;
+    font-family: 'Gill Sans';
+    padding-left:10px;
+}
+
+#noData{
+    min-height:200px;
+    max-height:350px;
+    border: 3px solid rgb(15, 88, 6); 
+    text-align:center;
+    display:none;
+    padding-top:10px;
+}
+
+#noData h3{
+    font-size: 20px;
+}
